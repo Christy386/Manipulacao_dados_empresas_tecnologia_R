@@ -1,0 +1,12 @@
+# Create sample data
+data <- data.frame(
+  ID = 1:5,
+  Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
+  Age = c(25, 30, 28, 22, 27)
+)
+
+# Print the data
+print(data)
+
+# Save data as a CSV file
+write.csv(data, "csv/sample_data.csv", row.names = FALSE)

@@ -1,0 +1,5 @@
+# Read tab-delimited file
+data <- read.csv("csv/sample_data.csv")
+
+# Display the contents of the data frame
+print(data)
