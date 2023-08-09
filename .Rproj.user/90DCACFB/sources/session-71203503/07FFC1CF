@@ -1,11 +1,11 @@
 {
     "id": "07FFC1CF",
-    "path": null,
-    "project_path": null,
+    "path": "C:/Users/dev/Documents/empresas tecnologia/test parse_number.R",
+    "project_path": "test parse_number.R",
     "type": "r_source",
     "hash": "715296625",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1691597288305.0,
     "source_on_save": false,
     "relative_order": 4,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1691586904,
-    "encoding": "",
+    "lastKnownWriteTime": 1691610002,
+    "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1691597290876,
+    "last_content_update": 1691610002824,
     "read_only": false,
     "read_only_alternatives": []
 }

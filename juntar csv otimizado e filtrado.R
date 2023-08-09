@@ -20,7 +20,7 @@ combined_data_allTypes <- map(csv_files_allTypes, function(file){
 combined_data_allTypes$`Var%` <- parse_number(combined_data_allTypes$`Var%`)/100
 
 combined_data_allTypes$`Vol.` <- combined_data_allTypes$`Vol.` %>% 
-  mutatcase_when()
+  case_when()
   parse_number()
 
 View(combined_data_allTypes) 

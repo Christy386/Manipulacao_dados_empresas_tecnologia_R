@@ -2,7 +2,9 @@ library(dplyr)
 library(tidyr)
 
 # Get a list of CSV files in the directory
-csv_files_allTypes <- list.files(path = "csv", pattern = "Resultados_.*\\.csv", full.names = TRUE)
+csv_files_allTypes <- list.files(path = "csv", 
+                                 pattern = "Resultados_.*\\.csv", 
+                                 full.names = TRUE)
 
 # Initialize an empty data frame to hold the combined data
 combined_data_allTypes <- data.frame()
@@ -22,7 +24,9 @@ for (file in csv_files_allTypes) {
   combined_data_allTypes <- rbind(combined_data_allTypes, data)
 }
 # Get a list of CSV files in the directory
-csv_files_tecnology <- list.files(path = "csv", pattern = "ResultadosTecnologia.*\\.csv", full.names = TRUE)
+csv_files_tecnology <- list.files(path = "csv", 
+                                  pattern = "ResultadosTecnologia.*\\.csv", 
+                                  full.names = TRUE)
 
 # Initialize an empty data frame to hold the combined data
 combined_data_tecnology <- data.frame()
